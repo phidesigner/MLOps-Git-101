@@ -1,0 +1,11 @@
+# Sandboxes are rebuilt by each setup.py: never commit them
+**/sandbox/
+
+# Disposable files
+__pycache__/
+.pytest_cache/
+tmp/
+.vscode/
+
+# Step-by-step guides inside 101
+**/STEPS.md
